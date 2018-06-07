@@ -1,0 +1,5 @@
+mongo:
+  image : mongo:latest
+  container_name : restaurants
+  ports :
+    - "27017:27017"

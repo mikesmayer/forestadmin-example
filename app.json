@@ -1,0 +1,28 @@
+{
+  "name": "express-mongodb-database",
+  "description": "The admin microservice of express-mongodb-database",
+  "website": "http://www.forestadmin.com/lumber",
+  "repository": "https://github.com/ForestAdmin/lumber",
+  "env": {
+    "FOREST_AUTH_SECRET": {
+      "description": "A random JWT signing secret to protect your admin API",
+      "value": "81ab9e22908856be02aca4b2ce37095e2e6c5a0369cd7482d70921894a78bc6089f9ce9b1e27cea40b2c9e5fb219718f"
+    },
+    "FOREST_ENV_SECRET": {
+      "description": "The Forest environment secret",
+      "value": "176806d0083356ded50c40830583d438cba345ebc923cc98a8043b462cf7ace9"
+    },
+    "DATABASE_URL": {
+      "description": "The remote database connection URL",
+      "value": "://<user>:<password>@<host>:<port>/<databaseName>"
+    },
+    "SSL_DATABASE": {
+      "description": "Specify if a SSL database connection is required.",
+      "value": "true"
+    },
+    "ENCRYPT_DATABASE": {
+      "description": "Specify if the database connection is encrypted.",
+      "value": ""
+    }
+  }
+}
